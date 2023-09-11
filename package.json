@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin",
+  "version": "1.0.0",
+  "description": "babel plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonzxw/babel-plugin.git"
+  },
+  "author": "jason_zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonzxw/babel-plugin/issues"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.17"
+  },
+  "homepage": "https://github.com/jasonzxw/babel-plugin#readme"
+}
